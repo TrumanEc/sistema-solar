@@ -1,25 +1,90 @@
-/* @font-face kit by Fonts2u (https://fonts2u.com) */ @font-face {font-family:"STARWARS";src:url("STARWARS.eot?") format("eot"),url("STARWARS.woff") format("woff"),url("STARWARS.ttf") format("truetype"),url("STARWARS.svg#STARWARS") format("svg");font-weight:normal;font-style:normal;}
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+    font-family: "STARWARS";
+    src: url("STARWARS.eot?") format("eot"), url("STARWARS.woff") format("woff"), url("STARWARS.ttf") format("truetype"), url("STARWARS.svg#STARWARS") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
-*{
+* {
     box-sizing: border-box;
     margin: 0%;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body{
-    background-image: url('https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?w=2000&t=st=1659771270~exp=1659771870~hmac=372288e260affea3a28236860bd1f880549428e3b92386f668542eaf27b36c71');
+body {
+    background: url('https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?w=2000&t=st=1659771270~exp=1659771870~hmac=372288e260affea3a28236860bd1f880549428e3b92386f668542eaf27b36c71');
 }
 
-main{
+header nav {}
+
+header ul {
+    display: flex;
+    width: 90%;
+    margin: 1rem auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(48, 48, 48, 0.857);
+    padding: 1rem;
+    list-style: none;
+    border-radius: 1rem;
+
+}
+
+header ul a {
+    text-decoration: none;
+    font-family: "STARWARS";
+    font-size: 1.5rem;
+    color: dodgerblue;
+    text-transform: uppercase;
+}
+
+header ul a:hover {
+    color: rgba(0, 106, 255, 0.346);
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inicio img {
+    width: 40%;
+}
+
+.sistema {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.412);
+    padding: 1rem;
+}
+
+.sistema h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: rgb(20, 152, 156);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sistema p {
+    color: #fafafa;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+main {
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
     justify-content: space-around;
 }
 
-.title{
-    -webkit-text-stroke: 2px #FFE81F; /* width and color */
+.title {
+    -webkit-text-stroke: 2px #FFE81F;
+    /* width and color */
     text-align: center;
     color: #0000;
     font-family: "STARWARS";
@@ -28,7 +93,7 @@ main{
     margin-top: 2rem;
 }
 
-.fact{
+.fact {
     background-color: rgba(255, 255, 255, 0.3);
     color: #fffc;
     text-align: justify;
@@ -43,7 +108,7 @@ main{
     border-radius: 2rem;
 }
 
-.fact img{
+.fact img {
     border-radius: 100%;
     width: 12rem;
     height: 12rem;
@@ -60,5 +125,51 @@ main{
 
 .fact_content p {
     margin-top: 1rem;
-    overflow : scroll;
+    overflow: hidden;
+}
+
+.preguntas {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.pregunta {
+    width: 40%;
+    background: rgba(98, 98, 98, 0.499);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.pregunta label {
+    color: #b4a203;
+    font-weight: bold;
+}
+
+.form-check-label {
+    color: #fafafa !important;
+}
+
+.pregunta input {
+    background: transparent;
+    color: #fafafa !important;
+}
+
+.pregunta input:focus,
+.pregunta input:active {
+    background: transparent;
+    box-shadow: none;
+    outline: 3px solid #b4a203 !important;
+}
+
+.button-container {
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.button-container button {
+    width: 100%;
 }
