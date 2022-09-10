@@ -173,3 +173,1052 @@ main {
 .button-container button {
     width: 100%;
 }
+
+
+
+/* ________________________________________________________ */
+
+
+.animation {
+    padding: 0;
+    margin: 0 auto;
+    width: 70%;
+    backdrop-filter: blur(6px);
+}
+
+.svg_block {
+    width: 100%;
+    height: 100%;
+}
+
+.svg_el {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.circle_path_el {
+    opacity: 0;
+}
+
+.stars_w {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.star_el {
+    background: white;
+    box-shadow: 0 0 2px 1px blue;
+    height: 2px;
+    width: 2px;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.star_el:nth-of-type(1) {
+    top: 11vh;
+    left: 77vw;
+}
+
+.star_el:nth-of-type(2) {
+    top: 58vh;
+    left: 51vw;
+}
+
+.star_el:nth-of-type(3) {
+    top: 60vh;
+    left: 47vw;
+}
+
+.star_el:nth-of-type(4) {
+    top: 67vh;
+    left: 13vw;
+}
+
+.star_el:nth-of-type(5) {
+    top: 44vh;
+    left: 13vw;
+}
+
+.star_el:nth-of-type(6) {
+    top: 72vh;
+    left: 43vw;
+}
+
+.star_el:nth-of-type(7) {
+    top: 92vh;
+    left: 93vw;
+}
+
+.star_el:nth-of-type(8) {
+    top: 71vh;
+    left: 37vw;
+}
+
+.star_el:nth-of-type(9) {
+    top: 91vh;
+    left: 47vw;
+}
+
+.star_el:nth-of-type(10) {
+    top: 77vh;
+    left: 41vw;
+}
+
+.star_el:nth-of-type(11) {
+    top: 42vh;
+    left: 27vw;
+}
+
+.star_el:nth-of-type(12) {
+    top: 63vh;
+    left: 27vw;
+}
+
+.star_el:nth-of-type(13) {
+    top: 65vh;
+    left: 42vw;
+}
+
+.star_el:nth-of-type(14) {
+    top: 76vh;
+    left: 94vw;
+}
+
+.star_el:nth-of-type(15) {
+    top: 36vh;
+    left: 96vw;
+}
+
+.star_el:nth-of-type(16) {
+    top: 69vh;
+    left: 43vw;
+}
+
+.star_el:nth-of-type(17) {
+    top: 38vh;
+    left: 1vw;
+}
+
+.star_el:nth-of-type(18) {
+    top: 26vh;
+    left: 57vw;
+}
+
+.star_el:nth-of-type(19) {
+    top: 73vh;
+    left: 7vw;
+}
+
+.star_el:nth-of-type(20) {
+    top: 28vh;
+    left: 73vw;
+}
+
+.star_el:nth-of-type(21) {
+    top: 63vh;
+    left: 31vw;
+}
+
+.star_el:nth-of-type(22) {
+    top: 74vh;
+    left: 4vw;
+}
+
+.star_el:nth-of-type(23) {
+    top: 67vh;
+    left: 67vw;
+}
+
+.star_el:nth-of-type(24) {
+    top: 20vh;
+    left: 23vw;
+}
+
+.star_el:nth-of-type(25) {
+    top: 69vh;
+    left: 30vw;
+}
+
+.star_el:nth-of-type(26) {
+    top: 46vh;
+    left: 64vw;
+}
+
+.star_el:nth-of-type(27) {
+    top: 12vh;
+    left: 78vw;
+}
+
+.star_el:nth-of-type(28) {
+    top: 21vh;
+    left: 18vw;
+}
+
+.star_el:nth-of-type(29) {
+    top: 15vh;
+    left: 20vw;
+}
+
+.star_el:nth-of-type(30) {
+    top: 32vh;
+    left: 7vw;
+}
+
+.star_el:nth-of-type(31) {
+    top: 24vh;
+    left: 5vw;
+}
+
+.star_el:nth-of-type(32) {
+    top: 50vh;
+    left: 22vw;
+}
+
+.star_el:nth-of-type(33) {
+    top: 27vh;
+    left: 86vw;
+}
+
+.star_el:nth-of-type(34) {
+    top: 12vh;
+    left: 84vw;
+}
+
+.star_el:nth-of-type(35) {
+    top: 3vh;
+    left: 77vw;
+}
+
+.star_el:nth-of-type(36) {
+    top: 47vh;
+    left: 90vw;
+}
+
+.star_el:nth-of-type(37) {
+    top: 52vh;
+    left: 86vw;
+}
+
+.star_el:nth-of-type(38) {
+    top: 78vh;
+    left: 97vw;
+}
+
+.star_el:nth-of-type(39) {
+    top: 57vh;
+    left: 96vw;
+}
+
+.star_el:nth-of-type(40) {
+    top: 7vh;
+    left: 29vw;
+}
+
+.star_el:nth-of-type(41) {
+    top: 11vh;
+    left: 83vw;
+}
+
+.star_el:nth-of-type(42) {
+    top: 17vh;
+    left: 36vw;
+}
+
+.star_el:nth-of-type(43) {
+    top: 3vh;
+    left: 49vw;
+}
+
+.star_el:nth-of-type(44) {
+    top: 77vh;
+    left: 16vw;
+}
+
+.star_el:nth-of-type(45) {
+    top: 76vh;
+    left: 35vw;
+}
+
+.star_el:nth-of-type(46) {
+    top: 64vh;
+    left: 35vw;
+}
+
+.star_el:nth-of-type(47) {
+    top: 70vh;
+    left: 47vw;
+}
+
+.star_el:nth-of-type(48) {
+    top: 69vh;
+    left: 47vw;
+}
+
+.star_el:nth-of-type(49) {
+    top: 40vh;
+    left: 65vw;
+}
+
+.star_el:nth-of-type(50) {
+    top: 43vh;
+    left: 32vw;
+}
+
+.star_el:nth-of-type(51) {
+    top: 60vh;
+    left: 51vw;
+}
+
+.star_el:nth-of-type(52) {
+    top: 17vh;
+    left: 70vw;
+}
+
+.star_el:nth-of-type(53) {
+    top: 34vh;
+    left: 53vw;
+}
+
+.star_el:nth-of-type(54) {
+    top: 62vh;
+    left: 79vw;
+}
+
+.star_el:nth-of-type(55) {
+    top: 26vh;
+    left: 73vw;
+}
+
+.star_el:nth-of-type(56) {
+    top: 3vh;
+    left: 80vw;
+}
+
+.star_el:nth-of-type(57) {
+    top: 76vh;
+    left: 23vw;
+}
+
+.star_el:nth-of-type(58) {
+    top: 88vh;
+    left: 91vw;
+}
+
+.star_el:nth-of-type(59) {
+    top: 68vh;
+    left: 7vw;
+}
+
+.star_el:nth-of-type(60) {
+    top: 12vh;
+    left: 94vw;
+}
+
+.star_el:nth-of-type(61) {
+    top: 55vh;
+    left: 90vw;
+}
+
+.star_el:nth-of-type(62) {
+    top: 80vh;
+    left: 32vw;
+}
+
+.star_el:nth-of-type(63) {
+    top: 66vh;
+    left: 18vw;
+}
+
+.star_el:nth-of-type(64) {
+    top: 95vh;
+    left: 25vw;
+}
+
+.star_el:nth-of-type(65) {
+    top: 70vh;
+    left: 5vw;
+}
+
+.star_el:nth-of-type(66) {
+    top: 90vh;
+    left: 87vw;
+}
+
+.star_el:nth-of-type(67) {
+    top: 55vh;
+    left: 84vw;
+}
+
+.star_el:nth-of-type(68) {
+    top: 81vh;
+    left: 3vw;
+}
+
+.star_el:nth-of-type(69) {
+    top: 28vh;
+    left: 30vw;
+}
+
+.star_el:nth-of-type(70) {
+    top: 48vh;
+    left: 31vw;
+}
+
+.star_el:nth-of-type(71) {
+    top: 35vh;
+    left: 53vw;
+}
+
+.star_el:nth-of-type(72) {
+    top: 79vh;
+    left: 17vw;
+}
+
+.star_el:nth-of-type(73) {
+    top: 22vh;
+    left: 10vw;
+}
+
+.star_el:nth-of-type(74) {
+    top: 73vh;
+    left: 9vw;
+}
+
+.star_el:nth-of-type(75) {
+    top: 45vh;
+    left: 84vw;
+}
+
+.star_el:nth-of-type(76) {
+    top: 35vh;
+    left: 38vw;
+}
+
+.star_el:nth-of-type(77) {
+    top: 79vh;
+    left: 66vw;
+}
+
+.star_el:nth-of-type(78) {
+    top: 14vh;
+    left: 65vw;
+}
+
+.star_el:nth-of-type(79) {
+    top: 25vh;
+    left: 81vw;
+}
+
+.star_el:nth-of-type(80) {
+    top: 80vh;
+    left: 32vw;
+}
+
+.star_el:nth-of-type(81) {
+    top: 58vh;
+    left: 38vw;
+}
+
+.star_el:nth-of-type(82) {
+    top: 9vh;
+    left: 74vw;
+}
+
+.star_el:nth-of-type(83) {
+    top: 43vh;
+    left: 72vw;
+}
+
+.star_el:nth-of-type(84) {
+    top: 6vh;
+    left: 16vw;
+}
+
+.star_el:nth-of-type(85) {
+    top: 95vh;
+    left: 48vw;
+}
+
+.star_el:nth-of-type(86) {
+    top: 28vh;
+    left: 86vw;
+}
+
+.star_el:nth-of-type(87) {
+    top: 53vh;
+    left: 4vw;
+}
+
+.star_el:nth-of-type(88) {
+    top: 89vh;
+    left: 38vw;
+}
+
+.star_el:nth-of-type(89) {
+    top: 83vh;
+    left: 30vw;
+}
+
+.star_el:nth-of-type(90) {
+    top: 63vh;
+    left: 8vw;
+}
+
+.star_el:nth-of-type(91) {
+    top: 64vh;
+    left: 54vw;
+}
+
+.star_el:nth-of-type(92) {
+    top: 8vh;
+    left: 24vw;
+}
+
+.star_el:nth-of-type(93) {
+    top: 76vh;
+    left: 55vw;
+}
+
+.star_el:nth-of-type(94) {
+    top: 45vh;
+    left: 30vw;
+}
+
+.star_el:nth-of-type(95) {
+    top: 38vh;
+    left: 4vw;
+}
+
+.star_el:nth-of-type(96) {
+    top: 44vh;
+    left: 92vw;
+}
+
+.star_el:nth-of-type(97) {
+    top: 58vh;
+    left: 76vw;
+}
+
+.star_el:nth-of-type(98) {
+    top: 41vh;
+    left: 16vw;
+}
+
+.star_el:nth-of-type(99) {
+    top: 66vh;
+    left: 80vw;
+}
+
+.star_el:nth-of-type(100) {
+    top: 57vh;
+    left: 37vw;
+}
+
+.star_el:nth-of-type(101) {
+    top: 35vh;
+    left: 55vw;
+}
+
+.star_el:nth-of-type(102) {
+    top: 96vh;
+    left: 9vw;
+}
+
+.star_el:nth-of-type(103) {
+    top: 40vh;
+    left: 55vw;
+}
+
+.star_el:nth-of-type(104) {
+    top: 30vh;
+    left: 3vw;
+}
+
+.star_el:nth-of-type(105) {
+    top: 32vh;
+    left: 47vw;
+}
+
+.star_el:nth-of-type(106) {
+    top: 74vh;
+    left: 18vw;
+}
+
+.star_el:nth-of-type(107) {
+    top: 75vh;
+    left: 13vw;
+}
+
+.star_el:nth-of-type(108) {
+    top: 84vh;
+    left: 64vw;
+}
+
+.star_el:nth-of-type(109) {
+    top: 6vh;
+    left: 55vw;
+}
+
+.star_el:nth-of-type(110) {
+    top: 92vh;
+    left: 32vw;
+}
+
+.star_el:nth-of-type(111) {
+    top: 17vh;
+    left: 72vw;
+}
+
+.star_el:nth-of-type(112) {
+    top: 82vh;
+    left: 56vw;
+}
+
+.star_el:nth-of-type(113) {
+    top: 79vh;
+    left: 56vw;
+}
+
+.star_el:nth-of-type(114) {
+    top: 90vh;
+    left: 34vw;
+}
+
+.star_el:nth-of-type(115) {
+    top: 34vh;
+    left: 96vw;
+}
+
+.star_el:nth-of-type(116) {
+    top: 63vh;
+    left: 20vw;
+}
+
+.star_el:nth-of-type(117) {
+    top: 42vh;
+    left: 99vw;
+}
+
+.star_el:nth-of-type(118) {
+    top: 50vh;
+    left: 28vw;
+}
+
+.star_el:nth-of-type(119) {
+    top: 43vh;
+    left: 3vw;
+}
+
+.star_el:nth-of-type(120) {
+    top: 97vh;
+    left: 14vw;
+}
+
+.star_el:nth-of-type(121) {
+    top: 80vh;
+    left: 85vw;
+}
+
+.star_el:nth-of-type(122) {
+    top: 87vh;
+    left: 78vw;
+}
+
+.star_el:nth-of-type(123) {
+    top: 38vh;
+    left: 4vw;
+}
+
+.star_el:nth-of-type(124) {
+    top: 48vh;
+    left: 25vw;
+}
+
+.star_el:nth-of-type(125) {
+    top: 88vh;
+    left: 98vw;
+}
+
+.star_el:nth-of-type(126) {
+    top: 45vh;
+    left: 39vw;
+}
+
+.star_el:nth-of-type(127) {
+    top: 54vh;
+    left: 62vw;
+}
+
+.star_el:nth-of-type(128) {
+    top: 43vh;
+    left: 61vw;
+}
+
+.star_el:nth-of-type(129) {
+    top: 67vh;
+    left: 73vw;
+}
+
+.star_el:nth-of-type(130) {
+    top: 73vh;
+    left: 97vw;
+}
+
+.star_el:nth-of-type(131) {
+    top: 84vh;
+    left: 4vw;
+}
+
+.star_el:nth-of-type(132) {
+    top: 44vh;
+    left: 85vw;
+}
+
+.star_el:nth-of-type(133) {
+    top: 92vh;
+    left: 42vw;
+}
+
+.star_el:nth-of-type(134) {
+    top: 87vh;
+    left: 34vw;
+}
+
+.star_el:nth-of-type(135) {
+    top: 49vh;
+    left: 25vw;
+}
+
+.star_el:nth-of-type(136) {
+    top: 11vh;
+    left: 82vw;
+}
+
+.star_el:nth-of-type(137) {
+    top: 17vh;
+    left: 43vw;
+}
+
+.star_el:nth-of-type(138) {
+    top: 24vh;
+    left: 61vw;
+}
+
+.star_el:nth-of-type(139) {
+    top: 87vh;
+    left: 83vw;
+}
+
+.star_el:nth-of-type(140) {
+    top: 56vh;
+    left: 79vw;
+}
+
+.star_el:nth-of-type(141) {
+    top: 5vh;
+    left: 63vw;
+}
+
+.star_el:nth-of-type(142) {
+    top: 50vh;
+    left: 31vw;
+}
+
+.star_el:nth-of-type(143) {
+    top: 39vh;
+    left: 50vw;
+}
+
+.star_el:nth-of-type(144) {
+    top: 77vh;
+    left: 32vw;
+}
+
+.star_el:nth-of-type(145) {
+    top: 44vh;
+    left: 93vw;
+}
+
+.star_el:nth-of-type(146) {
+    top: 91vh;
+    left: 4vw;
+}
+
+.star_el:nth-of-type(147) {
+    top: 15vh;
+    left: 7vw;
+}
+
+.star_el:nth-of-type(148) {
+    top: 51vh;
+    left: 88vw;
+}
+
+.star_el:nth-of-type(149) {
+    top: 40vh;
+    left: 5vw;
+}
+
+.star_el:nth-of-type(150) {
+    top: 64vh;
+    left: 72vw;
+}
+
+.star_el:nth-of-type(151) {
+    top: 57vh;
+    left: 75vw;
+}
+
+.star_el:nth-of-type(152) {
+    top: 58vh;
+    left: 15vw;
+}
+
+.star_el:nth-of-type(153) {
+    top: 1vh;
+    left: 46vw;
+}
+
+.star_el:nth-of-type(154) {
+    top: 14vh;
+    left: 8vw;
+}
+
+.star_el:nth-of-type(155) {
+    top: 7vh;
+    left: 95vw;
+}
+
+.star_el:nth-of-type(156) {
+    top: 44vh;
+    left: 81vw;
+}
+
+.star_el:nth-of-type(157) {
+    top: 49vh;
+    left: 54vw;
+}
+
+.star_el:nth-of-type(158) {
+    top: 60vh;
+    left: 55vw;
+}
+
+.star_el:nth-of-type(159) {
+    top: 70vh;
+    left: 19vw;
+}
+
+.star_el:nth-of-type(160) {
+    top: 91vh;
+    left: 44vw;
+}
+
+.star_el:nth-of-type(161) {
+    top: 4vh;
+    left: 40vw;
+}
+
+.star_el:nth-of-type(162) {
+    top: 13vh;
+    left: 61vw;
+}
+
+.star_el:nth-of-type(163) {
+    top: 39vh;
+    left: 25vw;
+}
+
+.star_el:nth-of-type(164) {
+    top: 65vh;
+    left: 31vw;
+}
+
+.star_el:nth-of-type(165) {
+    top: 78vh;
+    left: 10vw;
+}
+
+.star_el:nth-of-type(166) {
+    top: 39vh;
+    left: 14vw;
+}
+
+.star_el:nth-of-type(167) {
+    top: 41vh;
+    left: 61vw;
+}
+
+.star_el:nth-of-type(168) {
+    top: 74vh;
+    left: 93vw;
+}
+
+.star_el:nth-of-type(169) {
+    top: 68vh;
+    left: 4vw;
+}
+
+.star_el:nth-of-type(170) {
+    top: 96vh;
+    left: 87vw;
+}
+
+.star_el:nth-of-type(171) {
+    top: 20vh;
+    left: 96vw;
+}
+
+.star_el:nth-of-type(172) {
+    top: 33vh;
+    left: 52vw;
+}
+
+.star_el:nth-of-type(173) {
+    top: 36vh;
+    left: 51vw;
+}
+
+.star_el:nth-of-type(174) {
+    top: 48vh;
+    left: 80vw;
+}
+
+.star_el:nth-of-type(175) {
+    top: 2vh;
+    left: 16vw;
+}
+
+.star_el:nth-of-type(176) {
+    top: 23vh;
+    left: 49vw;
+}
+
+.star_el:nth-of-type(177) {
+    top: 71vh;
+    left: 12vw;
+}
+
+.star_el:nth-of-type(178) {
+    top: 49vh;
+    left: 28vw;
+}
+
+.star_el:nth-of-type(179) {
+    top: 40vh;
+    left: 97vw;
+}
+
+.star_el:nth-of-type(180) {
+    top: 62vh;
+    left: 24vw;
+}
+
+.star_el:nth-of-type(181) {
+    top: 30vh;
+    left: 49vw;
+}
+
+.star_el:nth-of-type(182) {
+    top: 70vh;
+    left: 21vw;
+}
+
+.star_el:nth-of-type(183) {
+    top: 53vh;
+    left: 58vw;
+}
+
+.star_el:nth-of-type(184) {
+    top: 1vh;
+    left: 92vw;
+}
+
+.star_el:nth-of-type(185) {
+    top: 24vh;
+    left: 38vw;
+}
+
+.star_el:nth-of-type(186) {
+    top: 61vh;
+    left: 31vw;
+}
+
+.star_el:nth-of-type(187) {
+    top: 29vh;
+    left: 89vw;
+}
+
+.star_el:nth-of-type(188) {
+    top: 58vh;
+    left: 73vw;
+}
+
+.star_el:nth-of-type(189) {
+    top: 45vh;
+    left: 2vw;
+}
+
+.star_el:nth-of-type(190) {
+    top: 72vh;
+    left: 6vw;
+}
+
+.star_el:nth-of-type(191) {
+    top: 69vh;
+    left: 50vw;
+}
+
+.star_el:nth-of-type(192) {
+    top: 45vh;
+    left: 40vw;
+}
+
+.star_el:nth-of-type(193) {
+    top: 99vh;
+    left: 98vw;
+}
+
+.star_el:nth-of-type(194) {
+    top: 38vh;
+    left: 82vw;
+}
+
+.star_el:nth-of-type(195) {
+    top: 35vh;
+    left: 41vw;
+}
+
+.star_el:nth-of-type(196) {
+    top: 18vh;
+    left: 76vw;
+}
+
+.star_el:nth-of-type(197) {
+    top: 79vh;
+    left: 69vw;
+}
+
+.star_el:nth-of-type(198) {
+    top: 60vh;
+    left: 90vw;
+}
+
+.star_el:nth-of-type(199) {
+    top: 99vh;
+    left: 72vw;
+}
+
+.star_el:nth-of-type(200) {
+    top: 19vh;
+    left: 51vw;
+}
+
+.anim_el {
+    will-change: transform;
+}
